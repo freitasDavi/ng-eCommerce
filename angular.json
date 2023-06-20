@@ -27,12 +27,24 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/tema/font/fontawesome-webfont.ttf",
+              "src/assets/tema/font/fontawesome-webfont.woff",
+              "src/assets/tema/font/fontawesome-webfont.webfont.woff"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/tema/css/bootstrap.css",
+              "src/assets/tema/css/font-awesome.min.css",
+              "src/assets/tema/css/responsive.css",
+              "src/assets/tema/css/style.css",
+              "src/assets/tema/css/style.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/tema/js/bootstrap.js",
+              "src/assets/tema/js/custom.js",
+              "src/assets/tema/js/jquery-3.4.1.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -95,10 +107,14 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "898ec2b5-dbd8-4495-8ab5-accfc4e1dbde"
   }
 }
