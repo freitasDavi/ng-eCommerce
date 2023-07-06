@@ -6,3 +6,46 @@
   color: red;
   margin-left: 8px;
 }
+
+.cont {
+  display: flex;
+  gap: 5rem;
+
+  .detail-box {
+    min-width: 400px;
+
+    .options {
+
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+
+      h6 {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.finalizar {
+  display: flex;
+  margin: 20px;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  width: 100%;
+
+  h4 {
+    font-weight: bold;
+  }
+
+  button {
+    border: none;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px 10px;
+  }
+
+}

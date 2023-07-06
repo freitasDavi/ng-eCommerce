@@ -1,9 +1,10 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { map, tap } from 'rxjs';
+import { map, take, tap } from 'rxjs';
 
 
 export type Produto = {
+  idProduto: number;
   nome: string,
   descricao: string,
   preco: number,
@@ -16,7 +17,7 @@ export type Produto = {
   providedIn: 'root'
 })
 export class ProdutosService {
-  private readonly API = "/assets/produtos.json";
+  private readonly API = "http://localhost:8080/api/produto";
 
   constructor(private http: HttpClient) { }
 
@@ -27,9 +28,6 @@ export class ProdutosService {
   }
 
   getById(id: string) {
-    return this.listar().pipe(
-      map(items =>
-        items.filter(i => i.nome == id))
-    )
+    return this.http.get<Produto>(this.API + `/${id}`).pipe(take(1));
   }
 }

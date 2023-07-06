@@ -4,7 +4,7 @@ import { ProdutoComponent } from './produto/produto.component';
 
 const routes: Routes = [
   {
-    path: "", component: ProdutoComponent
+    path: ":id", component: ProdutoComponent
   }
 ];
 
