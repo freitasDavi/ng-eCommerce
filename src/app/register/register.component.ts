@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { UserService } from './user.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -12,7 +13,7 @@ export class RegisterComponent {
   public password: string = "";
   public passwordM: string = "";
 
-  constructor(private userService: UserService) { }
+  constructor(private userService: UserService, private router: Router) { }
 
 
   public registrar() {
@@ -21,5 +22,7 @@ export class RegisterComponent {
       name: this.nome,
       password: this.password
     });
+
+    this.router.navigateByUrl("/");
   }
 }
