@@ -7,11 +7,13 @@ import { ProdutoComponent } from './produto/produto.component';
 
 @NgModule({
   declarations: [
-    ProdutoComponent
+    ProdutoComponent,
   ],
   imports: [
     CommonModule,
     ProdutosRoutingModule
+  ],
+  exports: [
   ]
 })
 export class ProdutosModule { }

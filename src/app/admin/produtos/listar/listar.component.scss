@@ -1,0 +1,19 @@
+.mainSection {
+  width: 100vw;
+  height: 100vw;
+  background-color: rgb(8, 8, 49);
+
+  padding: 20px;
+
+  section {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    background-color: blanchedalmond;
+    padding: 30px 10px;
+
+    h2 {
+      font-family: 'Roboto', sans-serif;
+    }
+  }
+}

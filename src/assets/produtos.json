@@ -1,0 +1,65 @@
+[
+  {
+    "nome": "Delicious Pizza",
+    "descricao": "Delicious",
+    "preco": 20,
+    "categoria": "pizza",
+    "img": "../assets/template/images/f1.png"
+  },
+  {
+    "nome": "Delicious Burger",
+    "descricao": "Delicious",
+    "preco": 15,
+    "categoria": "burger",
+    "img": "../assets/template/images/f2.png"
+  },
+  {
+    "nome": "Delicious Pizza 2",
+    "descricao": "Delicious",
+    "preco": 17,
+    "categoria": "pizza",
+    "img": "../assets/template/images/f3.png"
+  },
+  {
+    "nome": "Delicious Pasta",
+    "descricao": "Delicious",
+    "preco": 15,
+    "categoria": "pasta",
+    "img": "../assets/template/images/f4.png"
+  },
+  {
+    "nome": "French Fries",
+    "descricao": "Delicious",
+    "preco": 10,
+    "categoria": "fries",
+    "img": "../assets/template/images/f5.png"
+  },
+  {
+    "nome": "Delicious Pizza 3",
+    "descricao": "Delicious",
+    "preco": 15,
+    "categoria": "pizza",
+    "img": "../assets/template/images/f6.png"
+  },
+  {
+    "nome": "Tasty Burger",
+    "descricao": "Delicious",
+    "preco": 12,
+    "categoria": "burger",
+    "img": "../assets/template/images/f7.png"
+  },
+  {
+    "nome": "Tasty Burger 2",
+    "descricao": "Delicious",
+    "preco": 14,
+    "categoria": "burger",
+    "img": "../assets/template/images/f8.png"
+  },
+  {
+    "nome": "Delicious Pasta 2",
+    "descricao": "Delicious",
+    "preco": 10,
+    "categoria": "pasta",
+    "img": "../assets/template/images/f9.png"
+  }
+]
