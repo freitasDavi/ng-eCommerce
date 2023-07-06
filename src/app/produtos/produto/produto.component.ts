@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./produto.component.scss']
 })
 export class ProdutoComponent {
+  
+  adicionar(){
+    
+  }
 
 }
